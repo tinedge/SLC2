@@ -8,7 +8,7 @@ We base our experiment environment on Ubuntu 20.04 LTS and highly recommend that
 
 This branch contains the entire ns-3 network simulator (ns-3.33) with ns3-gym (opengym) module.
 
-## Install NS3-SON 
+## Install ns-3 and dependencies
 
 1. The first part of the preparation is to clone the repository:
 
