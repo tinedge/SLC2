@@ -344,17 +344,17 @@ if __name__ == "__main__" :
     actions_Mlb_previous = [0] * 5
 
     # Q-table for MRO
-    Q1_Mro = np.array(csv2list("/home/mnc2/Eunsok/ETRI/Qtable/mid/Qtable1_QMRO_Mid.csv"))
-    Q2_Mro = np.array(csv2list("/home/mnc2/Eunsok/ETRI/Qtable/mid/Qtable2_QMRO_Mid.csv"))
-    Q3_Mro = np.array(csv2list("/home/mnc2/Eunsok/ETRI/Qtable/mid/Qtable3_QMRO_Mid.csv"))
-    Q4_Mro = np.array(csv2list("/home/mnc2/Eunsok/ETRI/Qtable/mid/Qtable4_QMRO_Mid.csv"))
-    Q5_Mro = np.array(csv2list("/home/mnc2/Eunsok/ETRI/Qtable/mid/Qtable5_QMRO_Mid.csv"))
+    Q1_Mro = np.array(csv2list("/dir/SLC2/Qtable/mid/Qtable1_QMRO_Mid.csv"))
+    Q2_Mro = np.array(csv2list("/dir/SLC2/Qtable/mid/Qtable2_QMRO_Mid.csv"))
+    Q3_Mro = np.array(csv2list("/dir/SLC2/Qtable/mid/Qtable3_QMRO_Mid.csv"))
+    Q4_Mro = np.array(csv2list("/dir/SLC2/Qtable/mid/Qtable4_QMRO_Mid.csv"))
+    Q5_Mro = np.array(csv2list("/dir/SLC2/Qtable/mid/Qtable5_QMRO_Mid.csv"))
     # Q=table for MLB
-    Q1_Mlb = np.array(csv2list("/home/mnc2/Eunsok/ETRI/Qtable/mid/Qtable1_QMLB_Mid.csv"))
-    Q2_Mlb = np.array(csv2list("/home/mnc2/Eunsok/ETRI/Qtable/mid/Qtable2_QMLB_Mid.csv"))
-    Q3_Mlb = np.array(csv2list("/home/mnc2/Eunsok/ETRI/Qtable/mid/Qtable3_QMLB_Mid.csv"))
-    Q4_Mlb = np.array(csv2list("/home/mnc2/Eunsok/ETRI/Qtable/mid/Qtable4_QMLB_Mid.csv"))
-    Q5_Mlb = np.array(csv2list("/home/mnc2/Eunsok/ETRI/Qtable/mid/Qtable5_QMLB_Mid.csv"))
+    Q1_Mlb = np.array(csv2list("/dir/SLC2/Qtable/mid/Qtable1_QMLB_Mid.csv"))
+    Q2_Mlb = np.array(csv2list("/dir/SLC2/Qtable/mid/Qtable2_QMLB_Mid.csv"))
+    Q3_Mlb = np.array(csv2list("/dir/SLC2/Qtable/mid/Qtable3_QMLB_Mid.csv"))
+    Q4_Mlb = np.array(csv2list("/dir/SLC2/Qtable/mid/Qtable4_QMLB_Mid.csv"))
+    Q5_Mlb = np.array(csv2list("/dir/SLC2/Qtable/mid/Qtable5_QMLB_Mid.csv"))
 
     Coordinator = DDQNAgent(state_size, action_size)
 
