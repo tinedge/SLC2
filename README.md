@@ -121,4 +121,6 @@ Subin Han, Korea University, subin993@korea.ac.kr
 
 How to reference SLC2?
 ================================
-Please use the following bibtex:   Eunsok Lee, Kihoon Kim, Subin Han, and Sangheon Pack, "A Scalable and Low-Complexity Coordination Framework for Self-Organizing Networks," in *Proc. IEEE Vehicular Technology Conference (VTC) 2024 Fall*, Washington DC, USA, October 2024.
+Please use the following bibtex:
+
+Eunsok Lee, Kihoon Kim, Subin Han, and Sangheon Pack, "A Scalable and Low-Complexity Coordination Framework for Self-Organizing Networks," in *Proc. IEEE Vehicular Technology Conference (VTC) 2024 Fall*, Washington DC, USA, October 2024.
